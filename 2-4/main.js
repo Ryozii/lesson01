@@ -21,4 +21,6 @@ switch (season) {
   case 12:
     console.log("冬");
     break;
+  default:
+    console.log("1月から12月で入力してください");
 }
