@@ -6,7 +6,7 @@ let result_time = Number(time) + 1
 let result_minutes = Number(minutes) + 45
 
 function result () {
-  if ( result_minutes > 60 ) {
+  if ( result_minutes >= 60 ) {
     if( result_time >= 24) {
       console.log(result_time - 24)
       console.log(result_minutes - 60)
