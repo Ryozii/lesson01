@@ -18,3 +18,7 @@ const profiles = {
     }
   ]
 }
+
+profiles.profiles.forEach(function(prof) {
+  console.log(prof.name + ":" + String(prof.age))
+ })
